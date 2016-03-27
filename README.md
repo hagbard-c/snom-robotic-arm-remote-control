@@ -1,2 +1,2 @@
 # snom-robotic-arm-remote-control
-control an owi robotic arm via your snom phone
+control an owi robotic arm edge via your snom phone
