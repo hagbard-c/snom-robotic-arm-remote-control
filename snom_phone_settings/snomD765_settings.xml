@@ -1,0 +1,18 @@
+<settings>
+<phone-settings e="2">
+<language perm="">English</language>
+<timezone perm="">GER+1</timezone>
+<action_connected_url perm="">http://10.110.22.223/xml/video.xml.php</action_connected_url>
+<action_disconnected_url perm="">http://10.110.22.223/xml/owi_xml.php</action_disconnected_url>
+<ignore_security_warning perm="">true</ignore_security_warning>
+<tone_scheme perm="">GER</tone_scheme>
+<display_method perm="">display_number</display_method>
+<user_srtp idx="1" perm="">off</user_srtp>
+<user_name idx="1" perm="">468765</user_name>
+<user_host idx="1" perm="">10.110.22.37</user_host>
+<date_us_format perm="">off</date_us_format>
+</phone-settings>
+<functionKeys e="2">
+<fkey idx="0" context="1" label="" perm="">url http://10.110.22.223/xml/owi_xml.php?snomd765user=$active_user</fkey>
+</functionKeys>
+<tbook e='2'/></settings>

@@ -1,0 +1,33 @@
+<settings>
+<phone-settings e="2">
+<language perm="">English</language>
+<timezone perm="">GER+1</timezone>
+<action_connected_url perm="">http://10.110.22.223/xml/owi_logo_sw.xml.php</action_connected_url>
+<action_disconnected_url perm="">http://10.110.22.223/xml/owi_logo_sw.xml.php</action_disconnected_url>
+<tone_scheme perm="">GER</tone_scheme>
+<date_us_format perm="">off</date_us_format>
+<display_method perm="">display_number</display_method>
+<user_srtp idx="1" perm="">off</user_srtp>
+<ignore_security_warning perm="">true</ignore_security_warning>
+<backlight_idle perm="">15</backlight_idle>
+<user_remove_all_bindings idx="1" perm="">on</user_remove_all_bindings>
+<user_name idx="1" perm="">468345</user_name>
+<user_host idx="1" perm="">10.110.22.37</user_host>
+<label_font_size perm="">17</label_font_size>
+</phone-settings>
+<functionKeys e="2">
+<fkey idx="0" context="1" label="&#8592; &#8594; Grip" perm="">url http://10.110.22.223/robot_arm_control.php?action=grip_open</fkey>
+<fkey idx="1" context="1" label="&#8593; Wrist" perm="">url http://10.110.22.223/robot_arm_control.php?action=wrist_up</fkey>
+<fkey idx="2" context="1" label="&#8595; Wrist" perm="">url http://10.110.22.223/robot_arm_control.php?action=wrist_down</fkey>
+<fkey idx="3" context="1" label="&#8593; Shoulder" perm="">url http://10.110.22.223/robot_arm_control.php?action=shoulder_up</fkey>
+<fkey idx="4" context="1" label="&#8595; Shoulder" perm="">url http://10.110.22.223/robot_arm_control.php?action=shoulder_down</fkey>
+<fkey idx="5" context="1" label="&#8592; Base" perm="">url http://10.110.22.223/robot_arm_control.php?action=rotate_base_clockwise</fkey>
+<fkey idx="6" context="1" label="Light" perm="">url http://10.110.22.223/robot_arm_control.php?action=light_toggle</fkey>
+<fkey idx="7" context="1" label="Grip &#8594; &#8592;" perm="">url http://10.110.22.223/robot_arm_control.php?action=grip_close</fkey>
+<fkey idx="8" context="1" label="Elbow &#8593;" perm="">url http://10.110.22.223/robot_arm_control.php?action=elbow_up</fkey>
+<fkey idx="9" context="1" label="Elbow &#8595;" perm="">url http://10.110.22.223/robot_arm_control.php?action=elbow_down</fkey>
+<fkey idx="10" context="1" label="Stop" perm="">url http://10.110.22.223/robot_arm_control.php?action=stop_movment</fkey>
+<fkey idx="11" context="1" label="Base &#8594;" perm="">url http://10.110.22.223/robot_arm_control.php?action=rotate_base_counter_clocwise</fkey>
+<fkey idx="18" context="1" label="Start" perm="">url http://10.110.22.223/xml/owi_logo_sw.xml.php</fkey>
+</functionKeys>
+<tbook e='2'/></settings>
