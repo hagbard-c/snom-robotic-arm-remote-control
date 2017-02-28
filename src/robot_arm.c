@@ -3,6 +3,9 @@
     OWI Robotic Arm Edge USB protocol
     Copyright (C) 2010  Vadim Zaliva
 
+        * http://notbrainsurgery.livejournal.com/38622.html
+        * http://www.crocodile.org/lord/
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or

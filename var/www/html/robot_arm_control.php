@@ -14,7 +14,7 @@ class owi
             $cmd2 = "01";
         }
 
-        system("/var/www/robot_arm $cmd0 $cmd1 $cmd2",$retval);
+        system("/var/www/html/robot_arm $cmd0 $cmd1 $cmd2",$retval);
 
         if ($retval != 0)
         {
