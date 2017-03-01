@@ -108,7 +108,13 @@ Customize the [config-files](snom_phone_settings):
   * 3 URLs in snomD765 config
 
 Now import the config files on the snom phone:
+![Image of uploading an settingsfile to a snom VoIP phone](media/upload_settings_file.jpg)
 
+Browse to the webinterface of the snom phone:
+  1. Click on ```Advanced```
+  2. Tab ```Update```
+  3. ```Browse``` to the config file on your filesystem
+  4. And ```Load``` the config file
 
 ## Usage
 test
