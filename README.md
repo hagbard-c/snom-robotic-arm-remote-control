@@ -69,7 +69,7 @@ Usually ```/var/www/html/```
 
 The snom VoIP-phones can handle mjpeg-streams but only as a backgroundimage on the idle-screen.
 With the help of a little tool called [mjpeg-streamer](https://sourceforge.net/projects/mjpg-streamer/) its possible to
-generate snapshots from a stream that can be show on the phone via the xml-minibrowser.
+generate snapshots from a stream that can be shown on the phone via the xml-minibrowser.
 
 #### Compile mjpeg-streamer
 First install buildtools,svn and other dependencies:
