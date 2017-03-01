@@ -3,12 +3,6 @@
 ## Introduction
  test
 
-## How it works
-test
-
-## Table of content
-test
-
 ## Used hardware
 * [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
 * [OWI-535 Robotic Arm Edge with USB interface](https://www.owirobot.com/robotic-arm-edge-1/)
@@ -24,7 +18,7 @@ If u use an Raspberry Pi i recommend to install the latest version of [Raspbian 
 
 No special steps are needed, just follow the [installation instruction](https://www.raspberrypi.org/documentation/installation/installing-images/).
 
-### Udev rule
+### Udev-rule
 Normaly when u connect the OWI robotic arm via USB, normal users dont have the rights to write to that device.
 
 To prevent the usage of sudo everytime u want to control the robotic arm u can apply an [owi.rules](etc/udev/rules.d/owi.rules).
@@ -63,7 +57,7 @@ and off:
 ./robot_arm 00 00 00
 ```
 
-If u got a message like ```Permission denied``` make sure u applied the udev rule.
+If u got a message like ```Permission denied``` make sure u applied the [udev rule](#Udev-rule).
 
 ## Usage
 test
