@@ -18,7 +18,7 @@ If u use an Raspberry Pi i recommend to install the latest version of [Raspbian 
 
 No special steps are needed, just follow the [installation instruction](https://www.raspberrypi.org/documentation/installation/installing-images/).
 
-### Udev-rule
+### Udev rule
 Normaly when u connect the OWI robotic arm via USB, normal users dont have the rights to write to that device.
 
 To prevent the usage of sudo everytime u want to control the robotic arm u can apply an [owi.rules](etc/udev/rules.d/owi.rules).
@@ -34,6 +34,9 @@ Install lighttpd + php and reload lighttpd:
 $ sudo apt-get install lighttpd php5-cgi
 $ sudo /etc/init.d/lighttpd force-reload
 ```
+
+Copy the [php/xml-files](var/www/html) to your web server directory.
+Usually ```/var/www/html/```
 
 ### Compile the OWI Robotic Arm Edge USB-commandline tool
 First install an c-compiler and some dependencies:
@@ -57,7 +60,10 @@ and off:
 ./robot_arm 00 00 00
 ```
 
-If u got a message like ```Permission denied``` make sure u applied the [udev rule](#Udev-rule).
+If u got a message like ```Permission denied``` make sure u applied the udev rule.
+
+Copy the "robot_arm" executable to your web server directory.
+Usually ```/var/www/html/```
 
 ## Usage
 test
