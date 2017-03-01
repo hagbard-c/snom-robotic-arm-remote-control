@@ -99,6 +99,15 @@ Allow the web server to controll mjpeg-streamer by adding the user www-date to t
 ```Shell
 sudo usermod -aG video www-data
 ```
+### Setup the snom phones
+Customize the [config-files](snom_phone_settings):
+* Change the [user_name](http://wiki.snom.com/wiki/index.php/Settings/user_name) (shoud be uniqe in each config file)
+* Change the [user_host](http://wiki.snom.com/wiki/index.php/Settings/user_host) (shoud be the same in both config files)
+* Replace the IP-address (and ONLY the IP-address) of ALL URLs (http://10.110.22.223/...) in the config file with the IP of your web server.
+  * 15 URLs in snomD345 config
+  * 3 URLs in snomD765 config
+
+Now import the config files on the snom phone:
 
 
 ## Usage
