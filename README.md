@@ -116,5 +116,7 @@ Browse to the webinterface of the snom phone:
   3. ```Browse``` to the config file on your filesystem
   4. And ```Load``` the config file
 
+After that your phone reboots automaticly and applies the settings from the config-file.
+
 ## Usage
 test
