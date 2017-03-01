@@ -95,7 +95,7 @@ Compile and install mjpeg-streamer:
 $ make USE_LIBV4L2=true clean all
 $ sudo make install
 ```
-Allow the web server to controll mjpeg-streamer by adding the user www-date to the video group:
+Allow the web server to control mjpeg-streamer by adding the user www-date to the video group:
 ```Shell
 sudo usermod -aG video www-data
 ```
