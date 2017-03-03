@@ -1,7 +1,7 @@
 # snom robotic arm remote control
 
 ## Introduction
- test
+ToDo
 
 ## Used hardware
 * [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
@@ -27,7 +27,7 @@ Just copy the ```owi.rules``` to ```/etc/udev/rules.d```.
 
 
 ### Web server
-To deliver the xml/php-files to the phone we need a web server with php. I use [lighttpd](https://www.lighttpd.net/) because its small an fast but for sure u can use [Apache](https://httpd.apache.org/) or [nginx](https://nginx.org) if u want.
+To deliver the xml/php-files to the phone we need a web server with php. I use [lighttpd](https://www.lighttpd.net/) because its small and fast but for sure u can use [Apache](https://httpd.apache.org/) or [nginx](https://nginx.org) if u want.
 
 Install lighttpd + php and reload lighttpd:
 ```Shell
@@ -119,4 +119,4 @@ Browse to the webinterface of the snom phone:
 After that your phone reboots automaticly and applies the settings from the config-file.
 
 ## Usage
-test
+ToDo
