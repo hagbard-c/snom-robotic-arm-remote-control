@@ -27,7 +27,7 @@
 #include <string.h>
 #include <libusb-1.0/libusb.h>
 
-#define EP_INTR	(1 | LIBUSB_ENDPOINT_IN)
+#define EP_INTR (1 | LIBUSB_ENDPOINT_IN)
 #define ARM_VENDOR       0x1267
 #define ARM_PRODUCT      0
 #define CMD_DATALEN      3
@@ -118,10 +118,10 @@ int main(int ac, char **av)
     int actual_length=-1;
 
     r = libusb_control_transfer(devh,
-                                0x40,   //uint8_t 	bmRequestType,
-                                6,      //uint8_t 	bRequest,
-                                0x100,  //uint16_t 	wValue,
-                                0,      //uint16_t 	wIndex,
+                                0x40,   //uint8_t   bmRequestType,
+                                6,      //uint8_t   bRequest,
+                                0x100,  //uint16_t  wValue,
+                                0,      //uint16_t  wIndex,
                                 cmd,
                                 CMD_DATALEN,
                                 0
